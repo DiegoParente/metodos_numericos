@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 double simpson(double a, double b, int steps, double (*f)(double)){
 	double h = (b-a)/steps;
 	double area = 0;	
